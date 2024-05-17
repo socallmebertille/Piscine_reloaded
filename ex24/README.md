@@ -91,4 +91,8 @@ cc -o test test.c -I./includes -L. -lft
 
 ` -lft ` Precise le nom de ta libraire sans le prefixe "lib" et le suffixe ".a" de "libft.a" donc "-lnom_de_la_lib"
 <br>
+<<<<<<< HEAD
 La commande a donc creer l'executable ` test ` que l'on peut run en ecrivant ` ./test ` dans le terminal.
+=======
+La commande a donc creer l'executable ` test ` que l'on peut run en ecrivant ` ./test ` dans le terminal.
+>>>>>>> f8993c4fb0bc45e9fe144661b70d057d06f5c171
