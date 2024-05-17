@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   test.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: saberton <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: saberton <saberton@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/15 12:52:25 by saberton          #+#    #+#             */
-/*   Updated: 2024/05/15 12:58:32 by saberton         ###   ########.fr       */
+/*   Updated: 2024/05/17 16:13:33 by saberton         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,8 @@ int	main(void)
 {
 	char	*str = "Hola que tal ?";
 	char	*s2 = "Hola que tal";
-	int	a = 42;
-	int	b = 21;
+	int		a = 42;
+	int		b = 21;
 
 	ft_putchar('S');
 	printf("\n");
