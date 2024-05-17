@@ -1,9 +1,24 @@
 # Intro :
 Les makefile sont usuellement utilisés pour faire le travail de compilation classique de fichiers .c
+
+<br>
+
 Ce qu’il se passe lors d’une compilation c’est : 
+
+<br>
+
 1- les fichiers .c sont transformés en fichiers .o (fichiers traduit en binaire)
+
+<br>
+
 2- on les “link” (ou lie) entre eux pour pouvoir creer un executable et lancer le programme souhaite
+
+<br>
+
 Le but ici est d'éviter les manipulations d'écriture fastidieuses quand les quantités de fichiers s’additionnent. 
+
+<br>
+
 Par exemple, si l’on modifie un seul fichier, pas besoin de refaire tout le processus, le Makefile récupère sa librairie, 
 compare les fichiers c archives avec ceux du directory de travail pour voir s’il y a eu des modifications récentes. 
 En fonction de cela, il n’aura pas besoin de transformer à nouveau TOUS les fichiers .c en .o mais uniquement ceux qui ont été modifiés.
