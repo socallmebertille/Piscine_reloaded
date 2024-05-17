@@ -12,7 +12,7 @@ On a qu'un seul fichier a compiler donc c'est encore plus simple.
 
 | Code | Description |
 | --- | --- |
-| `NAME = ft_display_file` | Nom du futur executable (=a.out) |
+| `NAME = ft_display_file` | Nom du futur executable (= a.out) |
 | `FLAGS = -Wall -Wextra -Werror` | Flags de compilation |
 
 ## Sources et Objets
